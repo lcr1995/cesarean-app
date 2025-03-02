@@ -16,6 +16,11 @@ st.markdown("""
 [data-testid="column"] {
     padding: 0 1rem !important;  /* 减少列间空白 */
 }
+[data-testid="stToolbar"] {
+    visibility: hidden;
+    display: none;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
